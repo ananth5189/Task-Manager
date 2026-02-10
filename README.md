@@ -248,11 +248,6 @@ pylint routers/ models.py main.py
 flake8 .
 ```
 
-## 📄 License
-
-[Add your license here]
-
-
 ## 💡 Usage Examples
 
 ### 1. Register a User
@@ -359,7 +354,7 @@ docker-compose up -d
 2. Add to `gateway.py`:
 ```python
 from routers import new_service
-app.include_router(new_service.router, prefix="/api/v1/new-service")
+app.include_router(new_service.router)
 ```
 3. Test at `http://localhost:8000/docs`
 
