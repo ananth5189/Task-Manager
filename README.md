@@ -381,8 +381,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES=30
 ```
 
 ## 🎓 Concepts Demonstrated
-
-✅ **Microservices Architecture** - Modular service design  
+ 
 ✅ **API Gateway Pattern** - Centralized routing  
 ✅ **RESTful APIs** - Standard HTTP methods  
 ✅ **JWT Authentication** - Token-based security  
